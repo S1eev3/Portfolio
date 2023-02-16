@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--HEAD-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Mitchal Larson</title>
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+</head>
+
+<!--BODY-->
+<body class="background">
+
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Github">Github</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <br>
+    <br>
+
+    <!--BACKGROUND VIDEO-->
+    <div id="Home">
+        <video autoplay muted loop id="typing-video">
+            <source src="images/videos/typing_video.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+
+    <!--VIDEO TEXT-->
+    <div class="video-text">
+        <h1 class="white-text">Mitchal Larson's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>Any fool can write code that a computer can understand. 
+                    <br>Good programmers write code that humans can understand.</q>
+                    <br> -Martin Fowler
+                    <br>
+                    <br>My name is Mitchal Larson. Welcome to my portfolio website.
+                    On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div class="row" id="About">
+        <!--LEFT COLUMN-->
+        <div class="column-2">
+            <img src="images/headshot.png" alt="headshot">
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="column-1">
+            <h1>About</h1>
+            <p>
+                I am a software developer who loves to code! I am an avid traveller who's hobbies
+                also include snowboarding, video games, all while learning anything and everything I can.
+                <br>
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com"
+                target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and am
+                trained and experienced in the following web and programming languages:
+                HTML, CSS, JavaScript, SQL, C# and more.
+                <br>
+                <br>I am a full stack developer and would love to work with you on your project.
+                <a href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GITHUB SECTION-->
+    <div class="row" id="Github">
+        <!--LEFT COLUMN-->
+        <div class="column-1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/S1eev3" target="_blank">Mitchal Larson (S1eev3) Github</a></p>
+            </p>
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="column-2">
+            <a href="https://github.com/S1eev3" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div class="row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="column-2 column-tall">
+            <img src="images/Contact.jpg" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="column-1 column-tall">
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/mayzegdy" method="POST">
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--FOOTER SECTION-->
+    <footer>
+        <p>
+            <p class="center">&copy S1eev3 Development</p>
+        </p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
